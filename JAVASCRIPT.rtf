@@ -1,0 +1,1102 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 ArialMT;\f2\fnil\fcharset0 Verdana;
+\f3\fmodern\fcharset0 CourierNewPSMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red237\green237\blue237;
+\red146\green26\blue32;\red255\green255\blue193;\red0\green0\blue0;\red237\green237\blue237;\red254\green212\blue213;
+\red193\green193\blue193;\red0\green0\blue194;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;\cssrgb\c94510\c94510\c94510;
+\cssrgb\c64706\c16471\c16471;\cssrgb\c100000\c100000\c80000;\cssrgb\c0\c0\c0;\cssrgb\c94510\c94510\c94510;\cssrgb\c100000\c86667\c86667;
+\cssrgb\c80000\c80000\c80000;\cssrgb\c0\c0\c80392;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid1\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww17700\viewh18160\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+
+\f0\fs72 \cf0 JAVASCRIPT\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\fs28 \cf0 Variables:\
+\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	\uc0\u8259 	}Strings,\
+{\listtext	\uc0\u8259 	}Number,\
+{\listtext	\uc0\u8259 	}Boolean,\
+{\listtext	\uc0\u8259 	}Undefined,\
+{\listtext	\uc0\u8259 	}Null\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+Primitive types only fill one space in memory. And can copy variable to another space in memory.\
+Complex types only copy a reference in memory. When you copy a object in memory is created a pointer to that reference, ITS NOT CREATED A NEW OBJECT.\
+\
+; its the symbol to finish the declaration.\
+\
+% rest of division;\
+\
+var carro \{\'93cor\'94:\'94red\'94, \'93ano\'94:2018\}\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+
+\fs72 \cf0 W3SchoolsEx\
+\
+\pard\pardeftab720\sl680\sa200\partightenfactor0
+
+\f1\fs60 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Can Change HTML Content\
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+
+\f2\fs30 \cf2 One of many JavaScript HTML methods is\'a0
+\b getElementById()
+\b0 .\
+This example uses the method to "find" an HTML element (with id="demo") and changes the element content (
+\b innerHTML
+\b0 ) to "Hello JavaScript":\
+\pard\pardeftab720\sl560\sa200\partightenfactor0
+
+\f1\fs48 \cf2 \cb4 Example\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\fs32 \cf2 \cb3 document.getElementById(\cf5 \strokec5 "demo"\cf2 \strokec2 ).innerHTML\'a0=\'a0\cf5 \strokec5 "Hello JavaScript"\cf2 \strokec2 ;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+<!DOCTYPE html>\
+<html>\
+<body>\
+\
+<h2>What Can JavaScript Do?</h2>\
+\
+<p id="demo">JavaScript can change HTML content.</p>\
+\
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>\
+\
+</body>\
+</html>\
+\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\fs30 \cf2 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 JavaScript accepts both double and single quotes\
+\
+\pard\pardeftab720\sl680\sa200\partightenfactor0
+
+\f1\fs60 \cf2 \cb3 Can Change HTML Attribute Values\
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+
+\f2\fs30 \cf2 In this example JavaScript changes the value of the src (source) attribute of an <img> tag:\
+\pard\pardeftab720\sl560\sa200\partightenfactor0
+
+\f1\fs48 \cf7 \cb8 \outl0\strokewidth0 Example
+\f2\fs30 \cf2 \cb3 \outl0\strokewidth0 \strokec2 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\fs28 \cf2 <!DOCTYPE html>\
+<html>\
+<body>\
+\
+<h2>What Can JavaScript Do?</h2>\
+\
+<p>JavaScript can change HTML attribute values.</p>\
+\
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>\
+\
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>\
+\
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">\
+\
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>\
+\
+</body>\
+</html>\cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\
+\pard\pardeftab720\sl680\sa200\partightenfactor0
+
+\f1\fs60 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Can Change HTML Styles (CSS)\
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+
+\f2\fs30 \cf2 Changing the style of an HTML element, is a variant of changing an HTML attribute:\
+\pard\pardeftab720\sl560\sa200\partightenfactor0
+
+\f1\fs48 \cf2 \cb4 Example\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\fs32 \cf2 \cb3 document.getElementById(\cf5 \strokec5 "demo"\cf2 \strokec2 ).style.fontSize\'a0=\'a0\cf5 \strokec5 "35px"\cf2 \strokec2 ;\cb1 \
+\cb3 or\cb1 \
+\cb3 document.getElementById(\cf5 \strokec5 'demo'\cf2 \strokec2 ).style.fontSize\'a0=\'a0\cf5 \strokec5 '35px'\cf2 \strokec2 ;\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\fs28 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl680\sa200\partightenfactor0
+
+\f1\fs60 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Can Hide HTML Elements\
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+
+\f2\fs30 \cf2 Hiding HTML elements can be done by changing the display style:\
+\pard\pardeftab720\sl560\sa200\partightenfactor0
+
+\f1\fs48 \cf2 \cb4 Example\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\fs32 \cf2 \cb3 document.getElementById(\cf5 \strokec5 "demo"\cf2 \strokec2 ).style.display\'a0=\'a0\cf5 \strokec5 "none"\cf2 \strokec2 ;\cb1 \
+\cb3 or\cb1 \
+\cb3 document.getElementById(\cf5 \strokec5 'demo'\cf2 \strokec2 ).style.display\'a0=\'a0\cf5 \strokec5 'none'\cf2 \strokec2 ;\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\fs28 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl680\sa200\partightenfactor0
+
+\f1\fs60 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Can Show HTML Elements\
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+
+\f2\fs30 \cf2 Showing hidden HTML elements can also be done by changing the display style:\
+\pard\pardeftab720\sl560\sa200\partightenfactor0
+
+\f1\fs48 \cf2 \cb4 Example\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\fs32 \cf2 \cb3 document.getElementById(\cf5 \strokec5 "demo"\cf2 \strokec2 ).style.display\'a0=\'a0\cf5 \strokec5 "block"\cf2 \strokec2 ;\cb1 \
+\cb3 or\cb1 \
+\cb3 document.getElementById(\cf5 \strokec5 'demo'\cf2 \strokec2 ).style.display\'a0=\'a0\cf5 \strokec5 'block'\cf2 \strokec2 ;\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\fs30 \cf2 \cb6 Placing scripts at the bottom of the <body> element improves the display speed, because script compilation slows down the display.\
+\
+
+\f0\fs28 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl680\sa200\partightenfactor0
+
+\f1\fs60 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 External JavaScript Advantages\
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+
+\f2\fs30 \cf2 Placing scripts in external files has some advantages:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl360\partightenfactor0
+\ls2\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 It separates HTML and code\cb1 \
+\ls2\ilvl0\cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 It makes HTML and JavaScript easier to read and maintain\cb1 \
+\ls2\ilvl0\cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Cached JavaScript files can speed up page loads\cb1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl680\sa200\partightenfactor0
+
+\f1\fs60 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Display Possibilities\
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+
+\f2\fs30 \cf2 JavaScript can "display" data in different ways:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl360\partightenfactor0
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Writing into an HTML element, using\'a0
+\b innerHTML
+\b0 .\cb1 \
+\ls3\ilvl0\cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Writing into the HTML output using\'a0
+\b document.write()
+\b0 .\cb1 \
+\ls3\ilvl0\cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Writing into an alert box, using\'a0
+\b window.alert()
+\b0 .\cb1 \
+\ls3\ilvl0\cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Writing into the browser console, using\'a0
+\b console.log()
+\b0 . For debugging purposes.\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf2 \cb6 Changing the innerHTML property of an HTML element is a common way to display data in HTML.
+\f0\fs28 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+
+\f2\fs30 \cf2 \cb9 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Using document.write() after an HTML document is loaded, will\'a0
+\b delete all existing HTML
+\f0\b0\fs28 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+
+\f2\fs30 \cf2 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 The document.write() method should only be used for testing.\cb1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl680\sa200\partightenfactor0
+
+\f1\fs60 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Statements\
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+
+\f2\fs30 \cf2 JavaScript statements are composed of:\
+Values, Operators, Expressions,\'a0Keywords, and Comments. The statements are executed, one by one, in the same order as they are written.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrt\brdrs\brdrw20\brdrcf10 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth1962\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth13257\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+
+\f2\b\fs30 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Keyword\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Description\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth1962\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth13257\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+
+\b0 \cf2 break\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Terminates a switch or a loop\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth1962\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth13257\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 continue\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Jumps out of a loop and starts at the top\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth1962\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth13257\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 debugger\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Stops the execution of JavaScript, and calls (if available) the debugging function\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth1962\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth13257\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 do ... while\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Executes a block of statements, and repeats the block, while a condition is true\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth1962\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth13257\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 for\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Marks a block of statements to be executed, as long as a condition is true\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth1962\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth13257\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 function\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Declares a function\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth1962\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth13257\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 if ... else\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Marks a block of statements to be executed, depending on a condition\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth1962\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth13257\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 return\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Exits a function\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth1962\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth13257\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 switch\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Marks a block of statements to be executed, depending on different cases\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth1962\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth13257\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 try ... catch\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Implements error handling to a block of statements\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrb\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth1962\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth13257\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 var\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Declares a variable\cell \lastrow\row
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+\cf2 \cb6 JavaScript keywords are reserved words. Reserved words cannot be used as names for variables.\cb1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl680\sa200\partightenfactor0
+
+\f1\fs60 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Comments\
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+
+\f2\fs30 \cf2 Not all JavaScript statements are "executed".\
+Code after double slashes\'a0
+\b //
+\b0 \'a0or between\'a0
+\b /*
+\b0 \'a0and\'a0
+\b */
+\b0 \'a0is treated as a\'a0
+\b comment
+\b0 .\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl680\sa200\partightenfactor0
+
+\f1\fs60 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Identifiers\
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+
+\f2\fs30 \cf2 Identifiers are names.\
+In JavaScript, identifiers are used to name variables (and keywords, and functions, and labels).\
+The rules for legal names are much the same in most programming languages.\
+In JavaScript, the first character must be a letter, or an underscore (_), or a dollar sign ($).\
+Subsequent characters may be letters, digits, underscores, or dollar signs.\
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+\cf2 \cb6 Numbers are not allowed as the first character.\cb1 \uc0\u8232 \cb6 This way JavaScript can easily distinguish identifiers from numbers.\cb1 \
+\cb6 It's a good programming practice to declare all variables at the beginning of a script.\cb1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl680\sa200\partightenfactor0
+
+\f1\fs60 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 JavaScript Arithmetic Operators\
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+
+\f2\fs30 \cf2 Arithmetic operators are used to perform arithmetic on numbers:\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrt\brdrs\brdrw20\brdrcf10 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth11220\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+
+\b \cf2 \cb1 Operator\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Description\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth11220\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+
+\b0 \cf2 +\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Addition\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth11220\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 -\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Subtraction\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth11220\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 *\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Multiplication\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth11220\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 /\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Division\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth11220\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 %\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Modulus (Division Remainder)\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth11220\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 ++\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Increment\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrb\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth11220\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 --\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Decrement\cell \lastrow\row
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+\cf2 \cb6 Arithmetic operators are fully described in the\'a0{\field{\*\fldinst{HYPERLINK "https://www.w3schools.com/js/js_arithmetic.asp"}}{\fldrslt 
+\b \ul JS Arithmetic}}\'a0chapter.\cb1 \
+\pard\pardeftab720\sl360\sa400\partightenfactor0
+\cf2 \cb3 \
+\pard\pardeftab720\sl680\sa200\partightenfactor0
+
+\f1\fs60 \cf2 JavaScript Assignment Operators\
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+
+\f2\fs30 \cf2 Assignment operators assign values to JavaScript variables.\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrt\brdrs\brdrw20\brdrcf10 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat3 \clwWidth5308\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat3 \clwWidth5591\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+
+\b \cf2 \cb1 Operator\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Example\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Same As\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat4 \clwWidth5308\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat4 \clwWidth5591\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+
+\b0 \cf2 =\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = y\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = y\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat3 \clwWidth5308\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat3 \clwWidth5591\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 +=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x += y\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = x + y\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat4 \clwWidth5308\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat4 \clwWidth5591\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 -=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x -= y\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = x - y\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat3 \clwWidth5308\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat3 \clwWidth5591\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 *=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x *= y\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = x * y\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat4 \clwWidth5308\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat4 \clwWidth5591\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 /=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x /= y\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = x / y\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrb\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat3 \clwWidth5308\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat3 \clwWidth5591\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 %=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x %= y\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = x % y\cell \lastrow\row
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl680\sa200\partightenfactor0
+
+\f1\fs60 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 JavaScript Comparison Operators\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrt\brdrs\brdrw20\brdrcf10 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth13200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+
+\f2\b\fs30 \cf2 \cb1 Operator\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Description\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth13200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+
+\b0 \cf2 ==\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 equal to\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth13200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 ===\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 equal value and equal type\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth13200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 !=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 not equal\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth13200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 !==\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 not equal value or not equal type\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth13200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 >\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 greater than\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth13200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 <\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 less than\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth13200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 >=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 greater than or equal to\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth13200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 <=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 less than or equal to\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrb\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth13200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 ?\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 ternary operator\cell \lastrow\row
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl680\sa200\partightenfactor0
+
+\f1\fs60 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 JavaScript Logical Operators\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrt\brdrs\brdrw20\brdrcf10 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth13200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+
+\f2\b\fs30 \cf2 \cb1 Operator\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Description\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth13200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+
+\b0 \cf2 &&\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 logical and\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth13200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 ||\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 logical or\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrb\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth13200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 !\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 logical not\cell \lastrow\row
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl680\sa200\partightenfactor0
+
+\f1\fs60 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 avaScript Type Operators\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrt\brdrs\brdrw20\brdrcf10 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth4800\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth10420\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+
+\f2\b\fs30 \cf2 \cb1 Operator\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Description\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth4800\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth10420\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+
+\b0 \cf2 typeof\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Returns the type of a variable\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrb\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth4800\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth10420\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 instanceof\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Returns true if an object is an instance of an object type\cell \lastrow\row
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl680\sa200\partightenfactor0
+
+\f1\fs60 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 JavaScript Bitwise Operators\
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+
+\f2\fs30 \cf2 Bit operators work on 32 bits numbers.\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf2 Any numeric operand in the operation is converted into a 32 bit number. The result is converted back to a JavaScript number.\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \tamart400 \tamarb400 \trbrdrt\brdrs\brdrw20\brdrcf10 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx1440
+\clvertalt \clcbpat3 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat3 \clwWidth1772\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth2396\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat3 \clwWidth1350\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx7200
+\clvertalt \clcbpat3 \clwWidth2400\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+
+\b\fs24 \cf2 Operator\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 Description\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 Example\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 Same as\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 Result\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 Decimal\cb1 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx1440
+\clvertalt \clcbpat4 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat4 \clwWidth1772\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth2396\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat4 \clwWidth1350\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx7200
+\clvertalt \clcbpat4 \clwWidth2400\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+
+\b0 \cf2 \cb3 &\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 AND\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 5 & 1\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 0101 & 0001\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 0001\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 \'a01\cb1 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx1440
+\clvertalt \clcbpat3 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat3 \clwWidth1772\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth2396\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat3 \clwWidth1350\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx7200
+\clvertalt \clcbpat3 \clwWidth2400\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 |\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 OR\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 5 | 1\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 0101 | 0001\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 0101\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 \'a05\cb1 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx1440
+\clvertalt \clcbpat4 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat4 \clwWidth1772\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth2396\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat4 \clwWidth1350\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx7200
+\clvertalt \clcbpat4 \clwWidth2400\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 ~\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 NOT\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 ~ 5\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 \'a0~0101\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 1010\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 \'a010\cb1 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx1440
+\clvertalt \clcbpat3 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat3 \clwWidth1772\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth2396\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat3 \clwWidth1350\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx7200
+\clvertalt \clcbpat3 \clwWidth2400\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 ^\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 XOR\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 5 ^ 1\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 0101 ^ 0001\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 0100\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 \'a04\cb1 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx1440
+\clvertalt \clcbpat4 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat4 \clwWidth1772\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth2396\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat4 \clwWidth1350\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx7200
+\clvertalt \clcbpat4 \clwWidth2400\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 <<\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 Zero fill left shift\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 5 << 1\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 0101 << 1\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 1010\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 \'a010\cb1 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx1440
+\clvertalt \clcbpat3 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat3 \clwWidth1772\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth2396\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat3 \clwWidth1350\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx7200
+\clvertalt \clcbpat3 \clwWidth2400\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 >>\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 Signed right shift\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 5 >> 1\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 0101 >> 1\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 0010\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 \'a0 2\cb1 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrb\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth2020\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx1440
+\clvertalt \clcbpat4 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat4 \clwWidth1772\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth2396\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat4 \clwWidth1350\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx7200
+\clvertalt \clcbpat4 \clwWidth2400\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 >>>\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 Zero fill right shift\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 5 >>> 1\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 0101 >>> 1\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 0010\cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sl300\partightenfactor0
+\cf2 \cb3 \'a0 2\cb1 \cell \lastrow\row
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl680\sa200\partightenfactor0
+
+\f1\fs60 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Assignment Operators\
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+
+\f2\fs30 \cf2 Assignment operators assign values to JavaScript variables.\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrt\brdrs\brdrw20\brdrcf10 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat3 \clwWidth4906\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat3 \clwWidth5993\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+
+\b \cf2 \cb1 Operator\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Example\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Same As\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat4 \clwWidth4906\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat4 \clwWidth5993\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+
+\b0 \cf2 =\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = y\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = y\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat3 \clwWidth4906\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat3 \clwWidth5993\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 +=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x += y\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = x + y\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat4 \clwWidth4906\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat4 \clwWidth5993\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 -=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x -= y\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = x - y\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat3 \clwWidth4906\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat3 \clwWidth5993\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 *=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x *= y\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = x * y\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat4 \clwWidth4906\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat4 \clwWidth5993\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 /=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x /= y\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = x / y\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat3 \clwWidth4906\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat3 \clwWidth5993\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 %=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x %= y\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = x % y\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat4 \clwWidth4906\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat4 \clwWidth5993\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 <<=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x <<= y\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = x << y\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat3 \clwWidth4906\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat3 \clwWidth5993\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 >>=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x >>= y\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = x >> y\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat4 \clwWidth4906\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat4 \clwWidth5993\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 >>>=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x >>>= y\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = x >>> y\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat3 \clwWidth4906\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat3 \clwWidth5993\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 &=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x &= y\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = x & y\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat4 \clwWidth4906\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat4 \clwWidth5993\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 ^=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x ^= y\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = x ^ y\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat3 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat3 \clwWidth4906\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat3 \clwWidth5993\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 |=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x |= y\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = x | y\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf10 \trbrdrb\brdrs\brdrw20\brdrcf10 \trbrdrr\brdrs\brdrw20\brdrcf10 
+\clvertalt \clcbpat4 \clwWidth4000\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx2880
+\clvertalt \clcbpat4 \clwWidth4906\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx5760
+\clvertalt \clcbpat4 \clwWidth5993\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 **=\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x **= y\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 x = x ** y\cell \lastrow\row
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+\cf2 \cb6 The **= operator is an experimental part of the ECMAScript 2016 proposal (ES7). It is not stable across browsers. Do not use it.\cb1 \
+\pard\pardeftab720\sl840\sa200\partightenfactor0
+
+\f1\fs72 \cf2 \cb3 Functions\
+\pard\pardeftab720\sl680\sa200\partightenfactor0
+
+\fs60 \cf2 Function Return\
+\pard\pardeftab720\sl360\sa300\partightenfactor0
+
+\f2\fs30 \cf2 When JavaScript reaches a\'a0
+\b return statement
+\b0 , the function will stop executing.\
+If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.\
+Functions often compute a\'a0
+\b return value
+\b0 . The return value is "returned" back to the "caller"\
+\
+Objects are variables too. But objects can contain many values.\
+This code assigns\'a0
+\b many values
+\b0 \'a0(Fiat, 500, white) to a\'a0
+\b variable
+\b0 \'a0named car:\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\fs32 \cf11 \strokec11 var\cf2 \strokec2 \'a0car = \{type:\cf5 \strokec5 "Fiat"\cf2 \strokec2 , model:\cf5 \strokec5 "500"\cf2 \strokec2 , color:\cf5 \strokec5 "white"\cf2 \strokec2 \};\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\
+EVENTOS\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercicio 3 - Formulario</title>
+</head>
+<body>
+
+    <h1>Exercicio 3</h1>
+
+    <form action="">
+        <fieldset>
+            <legend>Register Form</legend>
+
+            <label for="iFirstName"><strong>First Name: </strong></label>
+            <input id="iFirstName" type="text" required><br>
+            <br>
+            <label for="iLastName"><strong>Last Name: </strong></label>
+            <input id="iLastName" type="text"><br>
+            <br>
+            <label for="iEmail"><strong>Email: </strong></label>
+            <input id="iEmail" type="email" required><br>
+            <br>
+            <label for="iLastName"><strong>Password: </strong></label>
+            <input id="iPassword" type="password" minlength="6" required><br>
+            <br>
+            <strong>Sex:</strong><br>
+            <input type="radio" name="gender" value="Male" checked>Male<br>
+            <input type="radio" name="gender" value="Female">Female<br>
+            <input type="radio" name="gender" value="Other">Other<br>
+            <br>
+            <label for="iDropdown"><strong>Club: </strong></label>
+            <select name="Clubs" id="iDropdown">
+                <option value="sporting">Sporting</option>
+                <option value="porto">Porto</option>
+                <option value="benfica">Benfica</option>
+                <option value="braga">Braga</option>
+            </select>
+            <br>
+            <br>
+            <input type="checkbox" name="agreeTerms" id="iCheck" value="Agree" required> I agree with the Terms & Conditions &#174;
+            <br>
+            <br>
+            <input type="submit" value="SUBMIT">
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
