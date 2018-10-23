@@ -1,3 +1,3 @@
 # UPAcademy
 
-Exercicios desenvolvidos durante a academia
+Exercicios desenvolvidos durante a academia Java
