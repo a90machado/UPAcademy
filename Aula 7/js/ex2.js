@@ -1,26 +1,38 @@
-/**
- * GLOBAL VARS
- * @check first time use
- * @group of all information
- * @count clicks
- */
-
 var totalStudents = "";
 var allStudents=[];
 var count=0;
 
-/**
- * SUBMITION BUTTON
- * @
- * @
- * @
- */
 function userClick(){
     var input = $("#userInput").val();
-    checkInput(count,input);
-    count++;
-    console.log(allStudents);
-    console.log(totalStudents);
+
+    if ($("#userInput").val().length > 0){
+        //only numbers
+        checkInput(count,input);
+        count++;
+        console.log(allStudents);
+    } else {
+        //have letters
+        $("#result").html("Only numbers are accept!");
+    }
+    $("#userInput").val("");
+    $("#userInput").focus();
+}
+function refreshPage(){
+    location.reload();
+}
+
+function variacao(input){
+    var variacao = (media()-input)/media()*100;
+
+    return variacao;
+}
+
+function media(){
+    var media = 0;
+    for (var i = 0; i < allStudents.length; i++){
+        media+=parseInt(allStudents[i].grade);
+    }
+    return (media/allStudents.length);
 }
 
 function checkInput(count,input){
@@ -31,13 +43,17 @@ function checkInput(count,input){
     }else if (count <= parseInt(totalStudents)){
         drawTable(count,input);
         if (count == parseInt(totalStudents)){
-            $("#result").html("Refresh the page to do it again!");
+            $("#result").html("Reference Grade");
+            
         } else {
             $("#result").html("Give me the grade of the student Nº "+(count+1));
         }
-    } else if (count > parseInt(totalStudents)){
-        alert("The End");
-    }
+    } 
+    if (count == parseInt(totalStudents)+1){
+        $("#hide").hide();
+        $("#refreshButton").show();
+        $("#lastResult").html("Media: "+media()+"Variacao "+variacao(parseInt(input)));
+    } 
 }
 
 function drawTable(index,inputValue){
