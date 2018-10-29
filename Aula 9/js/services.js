@@ -1,15 +1,12 @@
 function createFactura(nomeRequerente,artigo,extra){
-    var f = new Factura(nomeRequerente,artigo,extra);
-    return f;
+    return new Factura(nomeRequerente,artigo,extra);
 }
 
 function saveFactura(factura){
     data.push(factura);
 }
 
-
 function showFacturaByID(id){
-    
     for (let index = 0; index < data.length; index++) {
         const factura = orderData()[index];
         if (factura.id == id){
@@ -32,3 +29,5 @@ function removeFacturaByID(id){
 function orderData(){
     return data.sort();
 }
+
+//mostrar na tabela com e sem filtro
