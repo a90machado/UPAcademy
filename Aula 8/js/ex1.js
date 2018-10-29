@@ -2,8 +2,6 @@ function main() {
     checkSpecialOrders(data);
 }
 
-
-
 function checkSpecialOrders(data) {
     var specialOrders = [];
     for (let index = 0; index < data.length; index++) {
