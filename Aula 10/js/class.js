@@ -28,15 +28,15 @@ class Artigo{
     }
 }
 
-var fact1 = new Factura("Andre",new Artigo("Lentilhas","Natura"));
+//var fact1 = new Factura("Andre",new Artigo("Lentilhas","Natura"));
 
-fact1.addArtigo(new Artigo("Bla Bla","Wiskas Saquetas"));
+//fact1.addArtigo(new Artigo("Bla Bla","Wiskas Saquetas"));
 
-var x = showFacturaByID(2);
+//var x = showFacturaByID(2);
 
-removeFacturaByID(2);
+//removeFacturaByID(2);
 
-console.log(data);
-console.log(x);
+//console.log(data);
+//console.log(x);
 
 

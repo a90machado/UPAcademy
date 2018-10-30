@@ -1,5 +1,5 @@
-function createFactura(nomeRequerente,artigo,extra){
-    return new Factura(nomeRequerente,artigo,extra);
+function createFactura(nomeRequerente,artigo){
+    return new Factura(nomeRequerente,artigo);
 }
 
 function saveFactura(factura){
