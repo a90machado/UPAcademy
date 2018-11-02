@@ -13,7 +13,6 @@ function getData(){
             console.log("Error", data);
         }
     });
-
 }
 
 function generateTerm(){
@@ -31,6 +30,7 @@ function firstBook(data){
         $(".card-title").text(data.items[0].volumeInfo.title);
         $(".card-text").text(data.items[0].volumeInfo.description);
         $(".card-img-top").attr("src", data.items[0].volumeInfo.imageLinks.smallThumbnail);
+        $(".card a").attr("href", data.items[0].volumeInfo.infoLink)
     }
 }
 
