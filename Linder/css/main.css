@@ -1,22 +1,157 @@
-.card{
-    width: 18rem;
+.card {
+    border: none;
+}
+
+.card-title {
+    line-height: 2.5ex;
+    height: 5ex;
+}
+
+.card-text {
+    font-size: .8em;
+    line-height: 2.5ex;
+    height: 7.5ex;
+}
+
+img {
+    margin-top: 1rem;
+}
+
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 80%;
+    margin-top: .2rem;
+    margin-bottom: 1rem;
+}
+
+.fas {
+    font-size: 1.8em;
+}
+
+.fa-info {
+    color: #477ab8;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.fa-book,
+.fa-shopping-cart {
+    color: #d37400;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.buttons {
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    height: 10vh;
+    margin-left: 70%;
+}
+
+.buttons .nav-link {
+    position: relative;
 
 }
 
-.opacity1{
-    opacity: 0.3;
-    width: 16rem;
-    margin-left: auto;
+.buttons .icon {
+    background-color: #46515E;
+    padding: 10px 13px;
+    color: white;
+    font-size: 1em;
+    border-radius: 20px 10px;
+    position: relative;
+    z-index: 4;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.fa-heart {
+    font-size: 1em;
+}
+
+.fa-times-circle {
+    font-size: 1em;
+    margin-top: 1rem;
+}
+
+.buttons .nav-link:nth-child(1) .icon {
+    color: white;
+    background-color: #be004e;
+}
+
+.buttons .nav-link:nth-child(2) .icon {
+    color: white;
+    background-color: #4977b8;
+}
+
+.buttons .icon-text {
+    position: absolute;
+    left: 25px;
+    z-index: 0;
+    width: 50px;
+    margin: 3px;
+    text-align: right;
+    padding-right: .5rem;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: .9em;
+}
+
+.buttons .nav-link:nth-child(1) .icon-text {
+    background-color: #be004e;
+    top: 5px;
+}
+
+.buttons .nav-link:nth-child(2) .icon-text {
+    background-color: #4977b8;
+    top: 16px;
+}
+
+.container {
+    margin-top: 3%;
+}
+
+.active {
+    box-shadow: -1px 9px 40px -12px grey;
+}
+
+.btn-circle.btn-lg {
+    width: 60px;
+    height: 60px;
+    padding: 10px 15px;
+    font-size: 15px;
+    line-height: 1.33;
+    border-radius: 25px;
+    color: white;
+    margin-top: 3%;
+    box-shadow: 2px 2px 20px grey;
+}
+
+.btn-circle.btn-xl {
+    width: 80px;
+    height: 80px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+    margin-top: 2%;
+    box-shadow: 2px 2px 20px grey;
+}
+
+#stackOne{
 
 }
 
-.opacity2{
-    opacity: 0.3;
-    width: 16rem;
-    margin-right: auto;
+#stackTwo{
+    position: absolute;
+    z-index: auto;
+}
+
+#stackThree{
+    position: absolute;
+    z-index: -2;
 
 }
-.container-fluid{
+
+.controls{
 
 
 }
