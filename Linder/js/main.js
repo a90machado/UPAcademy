@@ -21,12 +21,13 @@ $("goToList").click(function(){
 function showTable(){
     $(".hideContainer").hide();
     $(".controls").hide();
-    $(".tableShow").show();
+
+    $(".tableShow").css("visibility","visible");
 
     for (let index = 0; index < booksLiked.length; index++) {
         const element = booksLiked[index];
-
-        drawTable(element);
+        
+        $(".tbody").append(drawTable(element));
     }
 
 }
