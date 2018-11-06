@@ -1,5 +1,43 @@
+/* MAIN */
+.container {
+    margin-top: 3%;
+}
+
+.groupStack {
+    position: relative;
+}
+
+#stackOne {
+    position: relative;
+    z-index: auto;
+}
+
+#stackTwo {
+    position: absolute;
+    z-index: -1;
+    top: -1rem;
+    left: 1rem;
+
+}
+
+#stackThree {
+    position: absolute;
+    z-index: -2;
+    top: -2rem;
+    left: 2rem;
+
+}
+/* end MAIN */
+
+
+/* CARD */
 .card {
     border: none;
+    box-shadow: -1px 9px 40px -12px grey;
+}
+
+img {
+    margin-top: 1rem;
 }
 
 .card-title {
@@ -13,9 +51,16 @@
     height: 7.5ex;
 }
 
-img {
-    margin-top: 1rem;
+textarea {
+    overflow: hidden;
+    border: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    resize: none;
 }
+
+
 
 hr.light-100 {
     border-top: 1px solid #d5d5d5;
@@ -67,11 +112,6 @@ hr.light-100 {
     font-size: 1em;
 }
 
-.fa-times-circle {
-    font-size: 1em;
-    margin-top: 1rem;
-}
-
 .buttons .nav-link:nth-child(1) .icon {
     color: white;
     background-color: #be004e;
@@ -95,18 +135,13 @@ hr.light-100 {
     background-color: #be004e;
     top: 5px;
 }
+/* end CARD */
 
-.buttons .nav-link:nth-child(2) .icon-text {
-    background-color: #4977b8;
-    top: 16px;
-}
 
-.container {
-    margin-top: 3%;
-}
+/* ACTIONS - CONTROLS */
+.controls {
+    margin-top: 2%;
 
-.active {
-    box-shadow: -1px 9px 40px -12px grey;
 }
 
 .btn-circle.btn-lg {
@@ -120,7 +155,6 @@ hr.light-100 {
     margin-top: 3%;
     box-shadow: 2px 2px 20px grey;
 }
-
 .btn-circle.btn-xl {
     width: 80px;
     height: 80px;
@@ -131,42 +165,4 @@ hr.light-100 {
     margin-top: 2%;
     box-shadow: 2px 2px 20px grey;
 }
-
-.groupStack{
-  position: relative;
-}
-
-#stackOne{
-  position: relative;
-  z-index: auto;
-}
-
-#stackTwo{
-    position: absolute;
-    z-index: -1;
-    top: -1rem;
-    left: 1rem;
-
-}
-
-#stackThree{
-  position: absolute;
-    z-index: -2;
-    top: -2rem;
-    left: 2rem;
-
-}
-
-.controls{
-  margin-top:2%;
-  
-}
-
-textarea{
-    overflow: hidden;
-    border: none;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    resize: none;
-}
+/* end ACTIONS - CONTROLS */
