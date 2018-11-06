@@ -10,11 +10,11 @@
 
 class Book {
 
-    constructor(id, title,description, urlImage, infoURL, sampleURL,buyURL) {
+    constructor(id, title,description, imageURL, infoURL, sampleURL,buyURL) {
         this.id = id;
         this.title = title;
         this.description = description;
-        this.urlImage = urlImage;
+        this.imageURL = imageURL;
         this.infoURL = infoURL;
         this.sampleURL = sampleURL;
         this.buyURL = buyURL;
@@ -26,5 +26,3 @@ class Book {
     }
 
 }
-
-

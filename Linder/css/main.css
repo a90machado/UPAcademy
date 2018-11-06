@@ -1,6 +1,6 @@
 /* MAIN */
 .container {
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .groupStack {
@@ -50,17 +50,6 @@ img {
     line-height: 2.5ex;
     height: 7.5ex;
 }
-
-textarea {
-    overflow: hidden;
-    border: none;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    resize: none;
-}
-
-
 
 hr.light-100 {
     border-top: 1px solid #d5d5d5;
@@ -140,8 +129,7 @@ hr.light-100 {
 
 /* ACTIONS - CONTROLS */
 .controls {
-    margin-top: 2%;
-
+    margin-top: 5%;
 }
 
 .btn-circle.btn-lg {
@@ -166,3 +154,8 @@ hr.light-100 {
     box-shadow: 2px 2px 20px grey;
 }
 /* end ACTIONS - CONTROLS */
+
+/* TABLE */
+.tableShow{
+    visibility: hidden;
+}
