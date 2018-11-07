@@ -18,8 +18,9 @@
 </head>
 
 <body>
+
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">Linder</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,10 +30,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mainNav mr-auto">
                 <li class="nav-item active">
-                    <button class="nav-link" onclick="showAPP()" href="">APP<span class="sr-only">(current)</span></a>
+                    <button class="nav-link" onclick="showAPP()" href="">APP<span class="sr-only">(current)</span></button>
                 </li>
                 <li class="nav-item">
-                    <button class="nav-link" onclick="showTable()" href="">Liked Books</a>
+                    <button class="nav-link" onclick="showTable()" href="">Liked Books</button>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -41,95 +42,97 @@
             </form>
         </div>
     </nav>
+    <!--endNavBar----------------------------------------------------------------------------------------------------->
 
-    <!-- CARDS STACK -->
+
+
     <div class="container hideContainer">
         <div class="row">
             <div class="mx-auto groupStack">
 
+                <div id="card">
+                    <div class="front">
+                        <!-- Card -->
+                        <div id="stackOne" class="card text-center" style="width: 18rem;">
+                            <img class="card-img-top mx-auto" src="" alt="Card image cap" style="width:12rem; height: 18rem;">
+                            <div class="buttons">
+                                <ul class="navbar-nav">
+                                    <li class="nav-link">
+                                        <span class="icon"><i class="fas fa-heart"></i></span>
+                                        <span class="icon-text"></span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-body">
+                                <hr class="light-100">
+                                <h6 class="card-title"></h6>
+                                <p class="card-text"></p>
+                                <div class="d-flex">
+                                    <div class="p-2">
+                                        <a href="http://" target="_blank" class="infoURL"><i class="fas fa-info"></i></a>
+                                    </div>
 
-                <div class="fcard">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
+                                    <div class="p-2">
+                                        <a href="http://" target="_blank" class="sampleURL"><i class="fas fa-book"></i></a>
+                                    </div>
 
-                            <!-- Card -->
-                            <div id="stackOne" class="card text-center" style="width: 18rem;">
-                                <img class="card-img-top mx-auto" src="" alt="Card image cap" style="width:12rem; height: 18rem;">
-                                <div class="buttons">
-                                    <ul class="navbar-nav">
-                                        <li class="nav-link">
-                                            <span class="icon"><i class="fas fa-heart"></i></span>
-                                            <span class="icon-text"></span>
-                                        </li>
-                                    </ul>
+                                    <div class="ml-auto p-2">
+                                        <a href="http://" target="_blank" class="buyURL"><i class="fas fa-shopping-cart"></i></a>
+                                    </div>
                                 </div>
-                                <div class="card-body">
-                                    <hr class="light-100">
-                                    <h6 class="card-title"></h6>
-                                    <P class="card-text"></P>
-                                    <div class="d-flex">
-                                        <a href="http://" target="_blank" class="infoURL">
-                                            <div class="p-2"><i class="fas fa-info"></i>
-                                        </a></div>
-                                    <a href="http://" target="_blank" class="sampleURL">
-                                        <div class="p-2"><i class="fas fa-book"></i>
-                                    </a>
-                                </div>
-                                <a href="http://" target="_blank" class="buyURL">
-                                    <div class="ml-auto p-2"><i class="fas fa-shopping-cart"></i>
-                                </a>
                             </div>
 
                         </div>
-                        <div class="flip-card-back">
+                        <!--endCard----------------------------------------------------------------------------------------------------->
+                    </div>
+                    <div class="back">
+                        <!-- Card -->
+                        <div id="stackTwo" class="card text-center" style="width: 18rem;">
+                            <img class="card-img-top mx-auto" src="" alt="Card image cap" style="width:12rem; height: 18rem;">
+                            <div class="buttons">
+                                <ul class="navbar-nav">
+                                    <li class="nav-link">
+                                        <span class="icon"><i class="fas fa-heart"></i></span>
+                                        <span class="icon-text"></span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-body">
+                                <hr class="light-100">
+                                <h6 class="card-title"></h6>
+                                <p class="card-text"></p>
+                                <div class="d-flex">
+                                    <div class="p-2">
+                                        <a href="http://" target="_blank" class="infoURL"><i class="fas fa-info"></i></a>
+                                    </div>
 
-                            <!-- Card -->
-                            <div id="stackOne" class="card text-center" style="width: 18rem;">
-                                <img class="card-img-top mx-auto" src="" alt="Card image cap" style="width:12rem; height: 18rem;">
-                                <div class="buttons">
-                                    <ul class="navbar-nav">
-                                        <li class="nav-link">
-                                            <span class="icon"><i class="fas fa-heart"></i></span>
-                                            <span class="icon-text"></span>
-                                        </li>
-                                    </ul>
+                                    <div class="p-2">
+                                        <a href="http://" target="_blank" class="sampleURL"><i class="fas fa-book"></i></a>
+                                    </div>
+
+                                    <div class="ml-auto p-2">
+                                        <a href="http://" target="_blank" class="buyURL"><i class="fas fa-shopping-cart"></i></a>
+                                    </div>
                                 </div>
-                                <div class="card-body">
-                                    <hr class="light-100">
-                                    <h6 class="card-title"></h6>
-                                    <P class="card-text"></P>
-                                    <div class="d-flex">
-                                        <a href="http://" target="_blank" class="infoURL">
-                                            <div class="p-2"><i class="fas fa-info"></i>
-                                        </a></div>
-                                    <a href="http://" target="_blank" class="sampleURL">
-                                        <div class="p-2"><i class="fas fa-book"></i>
-                                    </a>
-                                </div>
-                                <a href="http://" target="_blank" class="buyURL">
-                                    <div class="ml-auto p-2"><i class="fas fa-shopping-cart"></i>
-                                </a>
                             </div>
 
                         </div>
-
+                        <!--endCard----------------------------------------------------------------------------------------------------->
                     </div>
                 </div>
 
             </div>
-            </div>
-    </div>
-</div>
-            </div>
         </div>
     </div>
-    </div>
+
+
 
     <!-- Controllers -->
     <div class="col-sm-12 text-center mx-auto controls">
         <button type="button" onclick="dislike()" class="btn btn-warning btn-circle btn-lg"><i class="fas fa-times"></i></button>
         <button type="button" onclick="like()" class="btn btn-danger btn-circle btn-xl"><i class="fas fa-heart"></i></button>
     </div>
+    <!--endControllers----------------------------------------------------------------------------------------------------->
 
     <!-- TABLE -->
     <div class="container tableShow">
@@ -146,9 +149,11 @@
             </tbody>
         </table>
     </div>
+    <!--endTable----------------------------------------------------------------------------------------------------->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
@@ -158,6 +163,15 @@
     <script src="js/classBook.js"></script>
     <script src="js/data.js"></script>
     <script src="js/tableInit.js"></script>
+    <script>
+         $(function ($) {
+             $("#card").flip({
+                trigger: 'manual',
+                speed: 1000
+             });
+         });
+    </script>
+    <!--endScripts----------------------------------------------------------------------------------------------------->
 
 </body>
 

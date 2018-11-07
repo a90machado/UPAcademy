@@ -10,9 +10,7 @@
     background: none;
 }
 
-.mainNav{
-    margin-left: 40%;
-}
+
 /* end navbar */
 
 /* CARD */
@@ -148,4 +146,18 @@ hr.light-100 {
 
 td{
     color:black;
+}
+
+/* end TABLE */
+
+
+/*- Media Queries -*/
+@media (max-width: 992px){
+   
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 576px){
+
 }
