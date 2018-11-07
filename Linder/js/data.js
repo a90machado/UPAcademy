@@ -20,14 +20,18 @@ function getData(){
 
 
 //GENERATE A TERM FOR QUERY GET
-function generateTerm(){
-    var text = "";
-    var lenghtText = 1;
-    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghhijklmnopqrstuvwxyz";
-    for (let index = 0; index < lenghtText; index++) {
-        text += possible.charAt(Math.floor(Math.random()*possible.length));
-    }
-    return text;
+function generateTerm() {
+    var text = $("#inputSearch").val();
+
+    if (text == "") {
+        var lenghtText = 1;
+        var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghhijklmnopqrstuvwxyz";
+        for (let index = 0; index < lenghtText; index++) {
+            text += possible.charAt(Math.floor(Math.random() * possible.length));
+        }
+        return text;
+    } else { return text; }
+
 }
 //-----------------------------
 
@@ -55,7 +59,7 @@ function organizeDataToPush(data){
             title = (element.volumeInfo.title);
         }
         //--------------------
-        
+
         //VERIFICAR DESCRIÇÃO
         if(element.volumeInfo.description == undefined){
             description = "Sem descrição...";
@@ -78,11 +82,11 @@ function organizeDataToPush(data){
         } else {
             buyURL = element.saleInfo.buyLink;
         }
-        
+
         //PUSH TO ARRAY OF BOOK
         let book = new Book (element.id, title, description, imageURL, infoURL, sampleURL, buyURL);
         books.push(book);
-        
+
 
     }
 }

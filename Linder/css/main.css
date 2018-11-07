@@ -2,33 +2,18 @@
 .container {
     margin-top: 5%;
 }
-
-.groupStack {
-    position: relative;
-}
-
-#stackOne {
-    position: relative;
-    z-index: auto;
-}
-
-#stackTwo {
-    position: absolute;
-    z-index: -1;
-    top: -1rem;
-    left: 1rem;
-
-}
-
-#stackThree {
-    position: absolute;
-    z-index: -2;
-    top: -2rem;
-    left: 2rem;
-
-}
 /* end MAIN */
 
+/* NAVBAR */
+.nav-link{
+    border: none;
+    background: none;
+}
+
+.mainNav{
+    margin-left: 40%;
+}
+/* end navbar */
 
 /* CARD */
 .card {
@@ -159,4 +144,8 @@ hr.light-100 {
 .tableShow{
     visibility: hidden;
 
+}
+
+td{
+    color:black;
 }
