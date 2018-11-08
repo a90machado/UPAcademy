@@ -17,6 +17,7 @@ function showAPP() {
 
 //ACTION SHOW TABLE
 function showTable() {
+    $("td").remove();
     $(".hideContainer").hide();
     $(".controls").hide();
     $(".tableShow").css("visibility", "visible");
